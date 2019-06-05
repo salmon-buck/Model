@@ -8,21 +8,30 @@ import numpy as np
 from sklearn.metrics import average_precision_score
 
 
-# In[35]:
+# In[47]:
 
 
 # query
 def mAP(query, answer):
-    truth = np.zeros((5))
+    #truth = np.zeros((5))
+    count = 0
+    acc_num = 0
+    ap = 0
+    
     for i in range(5):
-        if answer[i] in query:
-            truth[query.index(answer[i])] = 1
-    score = [1,1,1,1,1]
-    ap = average_precision_score(truth, score)
+        count += 1 
+        if query[i] in answer:
+            acc_num += 1
+            #truth[query.index(answer[i])] = 1
+            ap += acc_num / count
+    
+    ap /= 5
+#     score = [1,1,1,1,1]
+#     ap = average_precision_score(truth, score)
     return ap
 
 
-# In[36]:
+# In[48]:
 
 
 answer = ['Korean Curry', 'Asian Style Nachos', 'Sesame Chicken Potstickers', 'Slow Cooker Corn Chowder', 'Instant Pot Mushroom Risotto']
