@@ -8,16 +8,21 @@ from Data_Preprocessing.recipeProcess.preProcessing import preProcessing
 import random
 
 def synonyms(query, query_processed) :
-    candidate = [[] for i in range(len(query))]
+    candidate = [[] for i in range(len(query_processed))]
     count=0
-    for w in query_processed :
+    for w in query:
+        w=preProcessing(w)
+        print(w)
+        if not w:
+            continue
 
-        if w not in total_wordset :
+        w=w[0]
+        if w not in collection_prob.keys() :
             for syn in wordnet.synsets(query[count]):
                 for l in syn.lemmas():
                     print(l.name())
                     print(preProcessing(l.name()))
-                    if preProcessing(l.name())[0] in total_wordset :
+                    if preProcessing(l.name())[0] in collection_prob.keys() :
                         print('얏호:', l.name())
                         candidate[count].append(preProcessing(l.name())[0])
 
@@ -34,7 +39,7 @@ def synonyms(query, query_processed) :
 def randomPick(candidate) :
     query_list=[]
     itr=10
-    mul=0
+    mul=1
     for c in candidate :
         mul*=len(c)
     if mul<10 :

@@ -29,15 +29,23 @@ for row in load_ws.rows :
     #print(db[row[0].value])
 
 load_ws=load_wb['P(t|C)']
-total_wordset=[]
+collection_prob={}
 for row in load_ws.rows :
-    total_wordset.append(row[0].value)
+    collection_prob[row[0].value]=row[1].value
 
-print(total_wordset)
-print(len(total_wordset))
+load_ws=load_wb['Smoothing']
+smoothing_prob={}
+for row in load_ws.rows :
+    if row[0].value :
+        name=row[0].value
+        food={}
+        smoothing_prob[name]=food
+    if row[1].value:
+        food[row[1].value] = row[2].value
 
-
-print(db)
+for i in smoothing_prob.keys() :
+    print(len(smoothing_prob[i]))
+print(smoothing_prob)
 '''
 for input_file in glob.glob(os.path.join(input_path, '../Data_Preprocessing/processedRecipe/*.txt')):                 # path 지정한 곳에서 txt파일 모두뒤짐
     a=os.path.basename(input_file)
