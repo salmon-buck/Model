@@ -12,7 +12,6 @@ def synonyms(query, query_processed) :
     count=0
     for w in query:
         w=preProcessing(w)
-        print(w)
         if not w:
             continue
 
@@ -20,10 +19,9 @@ def synonyms(query, query_processed) :
         if w not in collection_prob.keys() :
             for syn in wordnet.synsets(query[count]):
                 for l in syn.lemmas():
-                    print(l.name())
-                    print(preProcessing(l.name()))
+
                     if preProcessing(l.name())[0] in collection_prob.keys() :
-                        print('얏호:', l.name())
+
                         candidate[count].append(preProcessing(l.name())[0])
 
         else :
@@ -44,6 +42,7 @@ def randomPick(candidate) :
         mul*=len(c)
     if mul<10 :
         itr=mul
+    itr=10
     for i in range(itr) :
         query=[]
         for synonyms in candidate :
@@ -53,10 +52,9 @@ def randomPick(candidate) :
 
     return query_list
 
-q=input()
+q=input('검색 입력 : ')
 q_processed=preProcessing(q)
 q=q.split()
-print(q, q_processed)
 candidate=synonyms(q, q_processed)
 print(candidate)
 query_list=randomPick(candidate)

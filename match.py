@@ -19,12 +19,36 @@ for query in query_list :
     sorted_result = sorted(result.items(), key=operator.itemgetter(1), reverse=True)
     totalResult.append(sorted_result)
 
+avgResult=dict()
+for i in range(len(query_list)) :
+    cnt = 1
+    for (doc, sim) in totalResult[i]:
+        if doc in avgResult.keys() :
+            avgResult[doc]+=sim
+        else :
+            avgResult[doc]=sim
+
+for v in avgResult.keys() :
+    avgResult[v] /=len(query_list)
+
+avgResult = sorted(avgResult.items(), key=operator.itemgetter(1), reverse=True)
+
+cnt=1
+for (doc, sim) in avgResult :
+    print(str(cnt) + ". " + doc + " :" + str(sim))
+    if cnt>=rank :
+        break
+    cnt += 1
+print()
+
+'''
 for i in range(len(query_list)) :
     print("<query{} : ".format(i+1), ' '.join(query_list[i]), " >")
     cnt=1
     for (doc, sim) in totalResult[i] :
         print(str(cnt) + ". " + doc + " :" + str(sim))
-        if cnt>rank :
+        if cnt>=rank :
             break
         cnt += 1
     print()
+'''
