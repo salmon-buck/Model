@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[2]:
 
 
 from readDB import *
@@ -37,8 +37,12 @@ candidate=FindN(q)   # candidate = [chicken,onion]
 print(candidate)
 
 
-# In[10]:
+# In[3]:
 
+
+
+### 이 경우는 무조건 쿼리에 적힌 재료들이 포함되어 있는 경우, 
+###예를들어 양파 닭 소금이 쿼리에 있다면 저 3개를 모두 가지고 있는 결과물 중에서 검색
 
 def boolean_Ingredient_all(q_ing, db_ing) :
     ranked = []
@@ -136,4 +140,99 @@ print(data_name)
 print(data_all)
 print(data)
 print(data_weight)
+
+
+# In[13]:
+
+
+
+### 이 경우는 쿼리에 적힌 재료들이 모두 포함되어 있지 않더라도 가까운 경우, 
+###예를들어 양파 닭 소금이 쿼리에 있다면 저 2개만을 가지고 있더라도 가까운 음식 중에서 검색
+
+def NA_Ingredient_all(q_ing, db_ing) :
+    ranked = []
+    lg =[]
+    for food in db.keys():
+        flag = 0
+        s = db[food]['ingredient']
+        for qu in (q_ing):
+            if qu in s:
+                flag +=1
+
+        flaglen = flag
+        inglen=len(s.split(' '))
+        rank_value = flaglen/inglen
+        lg.append([food, rank_value])
+    
+    lg =sorted(lg, key=operator.itemgetter(1))
+    return lg
+
+def NA_Ingredient_nameonly(q_ing, db_ing) :
+    ranked = []
+    lg =[]
+    for food in db.keys():
+        flag = 0
+        s = db[food]['ingredient']
+        for qu in (q_ing):
+            if qu in s:
+                flag +=1
+        flaglen =flag
+        inglen=len(s.split(' '))
+        rank_value = flaglen/inglen
+        lg.append(food)
+    return lg
+
+def NA_Ingredient(q_ing, db_ing) :
+    ranked = []
+    lg =[]
+    for food in db.keys():
+        flag = 0
+        s = db[food]['ingredient']
+        for qu in (q_ing):
+            if qu in s:
+                flag +=1
+        flaglen = flag
+        inglen=len(s.split(' '))
+        rank_value = flaglen/inglen
+        lg.append([food, rank_value])
+    
+    lg =sorted(lg, key=operator.itemgetter(1))
+    
+    for i in range(5):
+        if (len(lg)-i-1) == -1:
+            break;
+        ranked.append(lg[len(lg)-1-i][0])
+        
+    return ranked
+
+def NA_Ingredient_weight(q_ing, db_ing) :
+    ranked_with_weight = []
+    lg =[]
+    for food in db.keys():
+        flag = 0
+        s = db[food]['ingredient']
+        for qu in (q_ing):
+            if qu in s:
+                flag+=1;
+                
+        flaglen = flag
+        inglen=len(s.split(' '))
+        rank_value = flaglen/inglen
+        lg.append([food, rank_value])
+    
+    lg =sorted(lg, key=operator.itemgetter(1))
+    for i in range(5):
+        if (len(lg)-i-1) == -1:
+            break;
+        ranked_with_weight.append(lg[len(lg)-i-1])
+        
+    return ranked_with_weight
+NAdata_name = NA_Ingredient_nameonly(candidate, db) # 소팅되지 않은 해당 음식들 전부
+NAdata_all = NA_Ingredient_all(candidate, db) # 소팅되지 않은 음식들의 값 전부 계산
+NAdata = NA_Ingredient(candidate, db) # 소팅된 음식들의 weight 빼고
+NAdata_weight = NA_Ingredient_weight(candidate, db) # data에는 chicken과 onion이 포함된 커리만 출력됨 - ranking을 통해 5위까지 출력
+print(NAdata_name)
+print(NAdata_all)
+print(NAdata)
+print(NAdata_weight)
 
