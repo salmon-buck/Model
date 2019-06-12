@@ -1,4 +1,4 @@
-from Model.readDB import *
+from readDB import *
 from nltk.corpus import wordnet
 import sys
 sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname(__file__))))
@@ -52,10 +52,9 @@ def randomPick(candidate) :
 
     return query_list
 
-q=input('검색 입력 : ')
-q_origin = q
-q_processed=preProcessing(q)
-q=q.split()
+q_origin=input('검색 입력 : ')
+q_processed=preProcessing(q_origin)
+q=q_origin.split()
 candidate=synonyms(q, q_processed)
 print(candidate)
 query_list=randomPick(candidate)
