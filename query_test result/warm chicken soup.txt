@@ -1,0 +1,69 @@
+warm chicken soup
+1. Ginseng Chicken Soup (Samgyetang)
+2. Coconut Curry Chicken Soup
+3. Thai Green Curry Chicken Soup
+4. Instant Pot Chicken Tortilla Soup
+5. Italian Wedding Soup
+
+1
+1. Ginseng Chicken Soup (Samgyetang) :3.903799837082282e-06
+2. Coconut Curry Chicken Soup :9.262237975330956e-07
+3. Thai Green Curry Chicken Soup :9.213360655530507e-07
+4. Instant Pot Chicken Tortilla Soup :4.0857100574422036e-07
+5. Bacon Wrapped Teriyaki Hot Dogs With Pineapple Salsa :4.055557910394581e-07
+
+2
+1. Ginseng Chicken Soup (Samgyetang) :2.411222693077907e-06
+2. Coconut Curry Chicken Soup :6.17192738258259e-07
+3. Thai Green Curry Chicken Soup :5.715110147934422e-07
+4. Bacon Wrapped Teriyaki Hot Dogs With Pineapple Salsa :3.072789823789581e-07
+5. Italian Wedding Soup :2.876771731417462e-07
+
+3
+1. Ginseng Chicken Soup (Samgyetang) :1.4850060800047982e-06
+2. Coconut Curry Chicken Soup :4.131281194636803e-07
+3. Thai Green Curry Chicken Soup :3.63136146025672e-07
+4. Bacon Wrapped Teriyaki Hot Dogs With Pineapple Salsa :2.33410503588578e-07
+5. Italian Wedding Soup :2.075006256387962e-07
+
+4
+1. Ginseng Chicken Soup (Samgyetang) :5.264518058378546e-06
+2. Coconut Curry Chicken Soup :1.1808704033050874e-06
+3. Thai Green Curry Chicken Soup :1.1733639754126966e-06
+4. Bacon Wrapped Teriyaki Hot Dogs With Pineapple Salsa :6.784186796581384e-07
+5. Instant Pot Chicken Tortilla Soup :5.519691860332782e-07
+
+5
+1. Ginseng Chicken Soup (Samgyetang) :3.2639482380500614e-06
+2. Coconut Curry Chicken Soup :7.854407939054943e-07
+3. Thai Green Curry Chicken Soup :7.338690294934597e-07
+4. Bacon Wrapped Teriyaki Hot Dogs With Pineapple Salsa :4.987362678420089e-07
+5. Instant Pot Chicken Tortilla Soup :3.8899127924420905e-07
+
+6
+1. Ginseng Chicken Soup (Samgyetang) :2.0205195291716576e-06
+2. Coconut Curry Chicken Soup :5.279187635185578e-07
+3. Thai Green Curry Chicken Soup :4.7071670377275687e-07
+4. Bacon Wrapped Teriyaki Hot Dogs With Pineapple Salsa :3.709878214953851e-07
+5. Instant Pot Chicken Tortilla Soup :2.748297783114761e-07
+
+7
+1. Ginseng Chicken Soup (Samgyetang) :4.357372577514371e-06
+2. Coconut Curry Chicken Soup :1.0111059994570929e-06
+3. Thai Green Curry Chicken Soup :1.0053453688395991e-06
+4. Bacon Wrapped Teriyaki Hot Dogs With Pineapple Salsa :4.965100872456848e-07
+5. Instant Pot Chicken Tortilla Soup :4.563703991739064e-07
+
+8
+1. Ginseng Chicken Soup (Samgyetang) :2.6954645414019585e-06
+2. Coconut Curry Chicken Soup :6.732754234740041e-07
+3. Thai Green Curry Chicken Soup :6.256303530267814e-07
+4. Bacon Wrapped Teriyaki Hot Dogs With Pineapple Salsa :3.7109807753330835e-07
+5. Instant Pot Chicken Tortilla Soup :3.1965643198143375e-07
+
+9
+1. Ginseng Chicken Soup (Samgyetang) :1.6635105630604181e-06
+2. Coconut Curry Chicken Soup :4.5139166748197263e-07
+3. Thai Green Curry Chicken Soup :3.9899633194136694e-07
+4. Bacon Wrapped Teriyaki Hot Dogs With Pineapple Salsa :2.792696095575136e-07
+5. Italian Wedding Soup :2.2729055585745436e-07

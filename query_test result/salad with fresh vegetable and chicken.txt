@@ -1,0 +1,69 @@
+salad with fresh vegetable and chicken
+1. Asian-Style Cobb Salad
+2. Chinese Chicken Salad
+3. Caprese Avocado Salad
+4. Best Ever Classic Macaroni Salad
+5. Thai Basil Chicken Bowls
+
+1
+1. Asian-Style Cobb Salad :1.1205450055337821e-07
+2. Caprese Avocado Salad :8.135644344943159e-08
+3. Chinese Chicken Salad :3.878707192757778e-08
+4. Best Ever Classic Macaroni Salad :3.86424604709405e-08
+5. Thai Basil Chicken Bowls :1.7159674316530768e-08
+
+2
+1. Asian-Style Cobb Salad :6.185947068848099e-08
+2. Caprese Avocado Salad :4.958009579724616e-08
+3. Chinese Chicken Salad :2.4113714482131155e-08
+4. Best Ever Classic Macaroni Salad :2.3890282538768595e-08
+5. Thai Basil Chicken Bowls :9.757622810973882e-09
+
+3
+1. Asian-Style Cobb Salad :3.5604625594549396e-08
+2. Caprese Avocado Salad :3.072438279641831e-08
+3. Chinese Chicken Salad :1.514096685879468e-08
+4. Best Ever Classic Macaroni Salad :1.5064833952962394e-08
+5. Thai Basil Chicken Bowls :5.856955050723887e-09
+
+4
+1. Asian-Style Cobb Salad :1.9215556271561996e-07
+2. Caprese Avocado Salad :1.760501032127974e-07
+3. Chinese Chicken Salad :7.040397166162314e-08
+4. Best Ever Classic Macaroni Salad :3.86424604709405e-08
+5. Thai Basil Chicken Bowls :2.9521258143366063e-08
+
+5
+1. Asian-Style Cobb Salad :1.0366272452195179e-07
+2. Caprese Avocado Salad :1.0248508202721553e-07
+3. Chinese Chicken Salad :4.415539018949016e-08
+4. Best Ever Classic Macaroni Salad :2.3890282538768595e-08
+5. Thai Basil Chicken Bowls :1.703287890978331e-08
+
+6
+1. Caprese Avocado Salad :6.125727899826444e-08
+2. Asian-Style Cobb Salad :5.9338740334990674e-08
+3. Chinese Chicken Salad :2.7999174550925023e-08
+4. Best Ever Classic Macaroni Salad :1.5064833952962394e-08
+5. Thai Basil Chicken Bowls :1.0377607722934593e-08
+
+7
+1. Asian-Style Cobb Salad :1.363994637760307e-07
+2. Caprese Avocado Salad :1.0978058260088348e-07
+3. Chinese Chicken Salad :4.832644724506352e-08
+4. Best Ever Classic Macaroni Salad :3.86424604709405e-08
+5. Thai Basil Chicken Bowls :2.0936642913659728e-08
+
+8
+1. Asian-Style Cobb Salad :7.460493043437477e-08
+2. Caprese Avocado Salad :6.549887751373139e-08
+3. Chinese Chicken Salad :3.014712460834493e-08
+4. Best Ever Classic Macaroni Salad :2.3890282538768595e-08
+5. Thai Basil Chicken Bowls :1.1972571892434674e-08
+
+9
+1. Asian-Style Cobb Salad :4.2846134184179375e-08
+2. Caprese Avocado Salad :3.9928998937483545e-08
+3. Chinese Chicken Salad :1.900242129647119e-08
+4. Best Ever Classic Macaroni Salad :1.5064833952962394e-08
+5. Thai Basil Chicken Bowls :7.22817343569076e-09

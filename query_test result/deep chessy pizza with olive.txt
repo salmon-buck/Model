@@ -1,0 +1,69 @@
+deep cheesy pizza with olive
+1. Bacon Breakfast Pizza
+2. Deep Dish Chicago Style Pizza
+3. White Mushroom Pizza
+4. Beef Enchilada Dip
+5. One Pot Mexican Skillet Pasta
+
+1
+1. Bacon Breakfast Pizza :5.578725351813148e-10
+2. Deep Dish Chicago Style Pizza :4.434705110585629e-10
+3. White Mushroom Pizza :1.900514309643162e-11
+4. Beef Enchilada Dip :1.6426276509420948e-11
+5. Tonkatsu :7.486231209652295e-12
+
+2
+1. Bacon Breakfast Pizza :2.8320696853776005e-10
+2. Deep Dish Chicago Style Pizza :2.5551061445378667e-10
+3. White Mushroom Pizza :1.2332204024472772e-11
+4. Beef Enchilada Dip :1.059824699766577e-11
+5. Tonkatsu :5.34656564258318e-12
+
+3
+1. Bacon Breakfast Pizza :1.4669223645952872e-10
+2. Deep Dish Chicago Style Pizza :1.459400075937943e-10
+3. White Mushroom Pizza :8.171402202549806e-12
+4. Beef Enchilada Dip :6.992368321449254e-12
+5. Tonkatsu :3.890196538657348e-12
+
+4
+1. Bacon Breakfast Pizza :1.2157923636410038e-09
+2. Deep Dish Chicago Style Pizza :8.749602709141285e-10
+3. White Mushroom Pizza :3.902981508299541e-11
+4. Beef Enchilada Dip :2.3773693473492928e-11
+5. One Pot Mexican Skillet Pasta :1.147937093679349e-11
+
+5
+1. Bacon Breakfast Pizza :6.248738083906036e-10
+2. Deep Dish Chicago Style Pizza :5.039655787269709e-10
+3. White Mushroom Pizza :2.528671279895929e-11
+4. Beef Enchilada Dip :1.528800359273201e-11
+5. One Pot Mexican Skillet Pasta :7.534181655148885e-12
+
+6
+1. Bacon Breakfast Pizza :3.251472472990094e-10
+2. Deep Dish Chicago Style Pizza :2.8679276448098735e-10
+3. White Mushroom Pizza :1.673555440970327e-11
+4. Beef Enchilada Dip :1.0061723576759753e-11
+5. One Pot Mexican Skillet Pasta :5.070135977211777e-12
+
+7
+1. Bacon Breakfast Pizza :7.50798264707586e-10
+2. Deep Dish Chicago Style Pizza :5.751613419440106e-10
+3. White Mushroom Pizza :2.488800030085348e-11
+4. Beef Enchilada Dip :1.887541549744495e-11
+5. One Pot Mexican Skillet Pasta :8.73552129824285e-12
+
+8
+1. Bacon Breakfast Pizza :3.830291918234244e-10
+2. Deep Dish Chicago Style Pizza :3.3113743156364447e-10
+3. White Mushroom Pizza :1.6139066572782455e-11
+4. Beef Enchilada Dip :1.2161499196021186e-11
+5. One Pot Mexican Skillet Pasta :5.81208299111485e-12
+
+9
+1. Bacon Breakfast Pizza :1.9871077913005414e-10
+2. Deep Dish Chicago Style Pizza :1.8871150447774608e-10
+3. White Mushroom Pizza :1.0688636594095354e-11
+4. Beef Enchilada Dip :8.01548673988609e-12
+5. One Pot Mexican Skillet Pasta :3.949369076986013e-12

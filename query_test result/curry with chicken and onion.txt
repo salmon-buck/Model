@@ -1,0 +1,69 @@
+curry with chicken and onion
+1. Thai Green Curry Chicken Soup
+2. Coconut Curry Chicken Soup
+3. Korean Curry
+4. Thai Red Curry Noodle Soup
+5. Chicken Khao Soi
+
+1
+1. Thai Green Curry Chicken Soup :3.648931777914785e-05
+2. Korean Curry :2.7329787918590767e-05
+3. Coconut Curry Chicken Soup :1.808815590014423e-05
+4. Thai Red Curry Noodle Soup :1.6998623779064726e-05
+5. Chicken Khao Soi :1.2254622349857817e-05
+
+2
+1. Thai Green Curry Chicken Soup :1.9725426386037326e-05
+2. Korean Curry :1.4308637555223688e-05
+3. Coconut Curry Chicken Soup :1.1932845591256694e-05
+4. Thai Red Curry Noodle Soup :1.1651517805548792e-05
+5. Chicken Khao Soi :8.58868986668931e-06
+
+3
+1. Thai Green Curry Chicken Soup :1.118916105376168e-05
+2. Korean Curry :8.419277106234225e-06
+3. Thai Red Curry Noodle Soup :8.017873019033162e-06
+4. Coconut Curry Chicken Soup :7.967183569080118e-06
+5. Chicken Khao Soi :6.0421758148935275e-06
+
+4
+1. Thai Green Curry Chicken Soup :8.17501799899561e-05
+2. Korean Curry :5.182330762191013e-05
+3. Thai Red Curry Noodle Soup :4.83071088730297e-05
+4. Coconut Curry Chicken Soup :4.549399996515064e-05
+5. Slow Cooker Indian Butter Chicken :3.419329344506523e-0
+
+5
+1. Thai Green Curry Chicken Soup :4.4782657732554543e-05
+2. Thai Red Curry Noodle Soup :3.2039863984679837e-05
+3. Coconut Curry Chicken Soup :2.8716824587994478e-05
+4. Korean Curry :2.652055292970841e-05
+5. Slow Cooker Indian Butter Chicken :2.064678219991861e-05
+
+6
+1. Thai Green Curry Chicken Soup :2.5815283065086036e-05
+2. Thai Red Curry Noodle Soup :2.1478845221704275e-05
+3. Coconut Curry Chicken Soup :1.8749475497167034e-05
+4. Korean Curry :1.5297435906229023e-05
+5. Chicken Khao Soi :1.4247063091801909e-05
+
+7
+1. Thai Green Curry Chicken Soup :4.902049418073759e-05
+2. Korean Curry :3.5025727462089195e-05
+3. Coconut Curry Chicken Soup :2.5550162059730738e-05
+4. Thai Red Curry Noodle Soup :2.5336814325133783e-05
+5. Slow Cooker Indian Butter Chicken :1.770848128431239e-05
+
+8
+1. Thai Green Curry Chicken Soup :2.6634998382328574e-05
+2. Korean Curry :1.813450662964169e-05
+3. Thai Red Curry Noodle Soup :1.7113231056717135e-05
+4. Coconut Curry Chicken Soup :1.654044092771415e-05
+5. Chicken Khao Soi :1.1745468415361417e-05
+
+9
+1. Thai Green Curry Chicken Soup :1.5203034080826418e-05
+2. Thai Red Curry Noodle Soup :1.1638504088872479e-05
+3. Coconut Curry Chicken Soup :1.0936196912333664e-05
+4. Korean Curry :1.0567497097396402e-05
+5. Chicken Khao Soi :8.296838563073597e-06
